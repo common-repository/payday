@@ -1,0 +1,367 @@
+= 3.3.9 =
+
+* Fix: Fix issue of final due date added twice to the due date.
+
+= 3.3.8 =
+
+* Fix: Fix error related to missing require statement, and update how we fetch order line item tax rate.
+
+= 3.3.7 =
+
+* Fix: Corrected the use of `__()` instead of `_()` function to resolve ArgumentCountError in `class-payday-customer-model.php`.
+
+= 3.3.6 =
+
+* Fix: Fix issue with shipping order line item using fixed cart discount
+
+= 3.3.5 =
+
+* Fix: Fixed issue with the product list action "Sync Inventory with Payday" button
+
+= 3.3.4 =
+
+* Implemented JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE options in JSON encoding to resolve errors related to malformed UTF-8 characters. This ensures correct encoding without escaping slashes and Unicode characters.
+
+= 3.3.3 =
+
+* Enhanced logging of JSON encoding errors within the Request Manager for better error tracking and debugging.
+
+= 3.3.2 =
+
+* Bug fix related final due date calculation on orders created from the payday claim payment gateway.
+
+= 3.3.1 =
+
+* Add string shorting to avoid issues with long strings for products and variants name and description
+
+= 3.3.0 =
+
+* Bug fix related to encoded customer emails
+* Handle customer settings for due date and fianl due date default days after
+
+= 3.2.9 =
+
+* Handle when the order product unit price is less than the line item sales price
+
+= 3.2.8 =
+
+* Truncate invoice and invoice line description to 1024 characters
+
+= 3.2.7 =
+
+* Fix issues related to OpenPos regarding the customer created in Payday
+
+= 3.2.6 =
+
+* Add further details to db error message
+
+= 3.2.5 =
+
+* Add support for WooCommerce High-Performance Order Storage 
+
+= 3.2.4 =
+
+* Adjust the field for required SSN
+
+= 3.2.3 =
+
+* Adjust the products table column
+
+= 3.2.2 =
+
+* Fix width of the products table column
+
+= 3.2.1 =
+
+* Fix typos
+
+= 3.2.0 =
+
+* Add one way product inventory sync from WooCommerce to Payday.
+* Update Customer Address in Payday when the customer uses a different billing address than the customer address within Payday.
+
+= 3.1.8 =
+
+* Bug fix: float parse string totals from WooCommerce
+
+= 3.1.7 =
+
+* Fix: Handle correct the tax rate when the 'Enable tax rates and calculations' is disabled.
+
+= 3.1.6 =
+
+* Bug Fix: Resolved inconsistency with loading payment gateways. Corrected issue where bank claim appears with an empty value.
+
+= 3.1.5 =
+
+* Update: Remove any text related to created invoice number as the Payday API dosn't support it anymore. 
+
+= 3.1.4 =
+
+* Fix: Retrieve billing SSN from order
+
+= 3.1.3 =
+
+* Add the option to not create an invoice for orders for a specific payment method.
+* Fix bug related to OpenPos chart discounts.
+
+= 3.1.2 =
+
+* Add an error notice if the user tries to update the plugin with PHP version lower than 8.0.
+
+= 3.1.1 =
+
+* Add an error notice if the user tries to activate the plugin with PHP version lower than 8.0.
+
+= 3.1.0 =
+
+* Simplify refund reason text
+* Bug fix related creating orders from the admin order page
+
+= 3.0.9 =
+
+* Improve the handling of order line item refunds
+
+= 3.0.8 =
+
+* Handle specifly multicurrency sites. Instead of using the products regular price which is set to ISK, use the sum of the subtotal and tax. Tested with YayCurrency plugin v2.2.
+* Note: The discount will not be correct in the case the products sales price is set. 
+
+= 3.0.7 =
+
+* Bug Fix related to sending invoices in email.
+
+= 3.0.6 =
+
+* Make the plugin log persistent. The log will be stored in the wp-content/uploads/payday-logs folder.
+
+= 3.0.5 =
+
+* Bug fix related to negative discount percentage. 
+
+= 3.0.4 =
+
+* Add a stable tag to the readme.txt file.
+
+= 3.0.3 =
+
+* Bug Fix: Handle 404 reponse when searching for a customer by SSN.
+* Update the request manager default timeout to 30 seconds.
+
+= 3.0.2 =
+
+* Fix bug related creating new customer from order
+* Refactor code related to the plugin admin links
+
+= 3.0.1 =
+
+* Bug Fix: add a exception handler when we try to delete the entries from the database.
+* Set the __wakeup() method to public to avoid a PHP warning and action.
+
+= 3.0.0 =
+
+* Create invoices with status SENT when mapping is missing or set to None.
+* Add a Logger and a Log Viewer to the plugin.
+* Display a notice if WooCommerce is not active.
+* Better process order item discount percentages and amount.
+* Handle chart fees.
+* Mayor refactor of the code related to the settings, payment gateway and the request manager to the Payday API.
+* Add submenus for the settings page, the payment gateway settings page and the log viewer page.
+* Make the UI of the settings page more user friendly.
+
+= 2.3.1 =
+
+* Add the highest tax rate to the OpenPos adjusted line.
+
+= 2.3.0 =
+
+* Visual Update
+* Bug fix: Endless re-authentication, second attempt to fix
+
+= 2.2.4 =
+
+* Bug fix: Endless re-authentication if incorrect endpoint was selected.
+* Add activation info at the top of the settings page.
+
+= 2.2.3 =
+
+* Replaced the API endpoint for the staging environment with the test environment endpoint.
+* Bug fix: Fixed a bug that caused the plugin to throw error when the user
+  selected* to remove settings and there was no value in the clientId field.
+
+= 2.2.2 =
+
+* Minor adjust to currency code for multi-currency store.
+
+= 2.2.1 =
+
+* Handle customers created through OpenPos.
+
+= 2.2.0 =
+
+* Bug fix: Handle SKU for products with variations.
+
+= 2.1.9 =
+
+* Bug fix: Authentication called multiple times
+* Validation and error messages added for authentication setting fields
+
+= 2.1.8 =
+
+* Send Product SKU when creating an invoice
+* Icelandic language file updated
+
+= 2.1.7 =
+
+* Re-authentication improved
+* Settings added for Invoice date and Due date
+
+= 2.1.6 =
+
+* Support OpenPos refunding order
+
+= 2.1.5 =
+
+* Support OpenPos orders
+* Add plugin tested up to 5.9.0
+* Bug fix: Re-authentication error
+
+= 2.1.4 =
+
+* Bug fix: Fix fatal error
+
+= 2.1.3 =
+
+* Bug fix: Handle multiple database prefixes
+
+= 2.1.2 =
+
+* No changes
+* Add plugin tested up to 5.8.0
+
+= 2.1.1 =
+
+* Bug fix: Add null check for post
+
+= 2.1.0 =
+
+* Improve error handling for repository methods
+* Bug fix: Exporting order lines where value is zero
+
+= 2.0.19 =
+
+* Bug Fix: Payment Methods Mapping not showing
+
+= 2.0.18 =
+
+* Bug Fix: No customer was created in Payday if email was not provided.
+
+= 2.0.17 =
+
+* Bug Fix: Prevent client app sending "None" as Payment Type if user has not selected any option.
+
+= 2.0.16 =
+
+* Add support for payment methods with undeclared title
+
+= 2.0.15 =
+
+* Edit: If customer types in ssn and no customer is found, create a new customer by ssn instead of searching from email.
+
+= 2.0.14 =
+
+* Bug Fix: Display Payment Methods underneath payment methods actions on the settings page
+
+= 2.0.13 =
+
+* Translation updated and the 'None' option added to selection fields underneath payment methods on the settings page
+
+= 2.0.12 =
+
+* Minor code refactoring and bug fix
+
+= 2.0.11 =
+
+* Edit: Quantity of order list items is set to always positive and line item amount can be minus
+
+= 2.0.10 =
+
+* Add: Payload set to Payday can include minus amount for creating credit invoice
+
+= 2.0.9 =
+
+* Add: woocommerce_order_status_changed hook removed and added in Payday Payment Gateway
+
+= 2.0.8 =
+
+* Add commit after database inserts and updates to handle if autocommit is enabled.
+
+= 2.0.7 =
+
+* Edit: Invoice dates updated to order created_at
+
+= 2.0.6 =
+
+* Bug Fix: Date paid always null
+
+= 2.0.5 =
+
+* Bug Fix: Wrong order note
+
+= 2.0.4 =
+
+* Bug Fix: Day until Final due date not works
+
+= 2.0.3 =
+
+* Bug Fix: Always send claims if payment gateways is enabled
+
+= 2.0.2 =
+
+* Features added: On order page in admin, view billing ssn and create new order with ssn
+* Features added: Order notes added when invoice is created successfully
+* Icelandic language file updated
+* Bug Fix: Duplicate Customers created in Payday
+
+= 2.0.1 =
+
+* Bug Fix: Add checkboxes for displaying the SSN field on the checkout page and in the WooCommerce email.
+
+= 2.0.0 =
+
+* Major refactor done to code
+* Icelandic language file added
+* Payday Gateway added
+
+= 1.3.1 =
+
+* Clear Cache button added to the plugin settings page.
+* If pressed, then the new Database table for Payment Types is dropped, and all users settings are deleted.
+* New Database table added to store Payment Types to reduce the number of requests to Payday External API.
+
+= 1.3.0 =
+
+* Refresh Values button added to the plugin settings page. If pressed new list of Payment Types / Chart of Accounts is fetched.
+* New Database table added to store Payment Types to reduce the number of requests to Payday External API.
+
+= 1.2.9 =
+
+* Stable release for the first version.
+
+= 1.2.7 =
+
+* Bug Fix: Add shipping title to invoice.
+
+= 1.2.5 =
+
+* Add support for line item discounts and
+
+= 1.2.0 =
+
+* Add support for shipping cost
+* Add order notes to invoice
+* Reduce the number of Authentication requests made to Payday External API.
+
+= 1.0.0 =
+
+* Initial release of Payday for WordPress.

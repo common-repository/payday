@@ -1,0 +1,844 @@
+# Copyright (C) 2020 Payday ehf.
+# This file is distributed under the same license as the Payday plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Payday 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/payday\n"
+"POT-Creation-Date: 2024-07-09T15:22:57+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: is_IS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n%10==1 && n%100!=11);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. Plugin Name of the plugin
+#: P:\Payday\payday-woocommerce-plugin\payday\payday.php
+#: admin/class-payday-admin-menu.php:48 admin/class-payday-admin-menu.php:49
+msgid "Payday"
+msgstr "Payday"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: P:\Payday\payday-woocommerce-plugin\payday\payday.php
+msgid "https://payday.is/"
+msgstr "https://payday.is/"
+
+#. Description of the plugin
+#: P:\Payday\payday-woocommerce-plugin\payday\payday.php
+msgid ""
+"Integrates your WooCommerce store with Payday allowing new orders to be "
+"automatically sent as invoices."
+msgstr ""
+"Tengir WooCommerce við Payday. Gerir versluninni kleift að stofna sjálfkrafa "
+"reikninga fyrir hverja pöntun."
+
+#. Author of the plugin
+#: P:\Payday\payday-woocommerce-plugin\payday\payday.php
+msgid "Payday ehf."
+msgstr "Payday ehf."
+
+#: admin/class-payday-admin-menu.php:84
+msgid "Payday Settings"
+msgstr "Payday stillingar"
+
+#: admin/class-payday-admin-menu.php:85 admin/class-payday-admin.php:55
+#: pages/class-payday-settings-page.php:117
+msgid "Settings"
+msgstr "Stillingar"
+
+#: admin/class-payday-admin-menu.php:122 admin/class-payday-admin-menu.php:123
+msgid "Bank Claim Service"
+msgstr "Kröfuþjónusta"
+
+#: admin/class-payday-admin-menu.php:153
+msgid "Payday Log Viewer"
+msgstr "Payday Atburðaskrá"
+
+#: admin/class-payday-admin-menu.php:154
+msgid "Log"
+msgstr "Atburðaskrá"
+
+#: admin/class-payday-admin.php:36
+msgid "Developed by Payday ehf. Version "
+msgstr "Þróað af Payday ehf. Útgáfa "
+
+#: admin/class-payday-admin.php:55
+msgid "View Payday settings"
+msgstr "Sjá Payday stillingar"
+
+#: admin/class-payday-admin.php:78
+msgid "View Payday plugin setup guide"
+msgstr "Sjá hjálpargrein um uppsetningu á Payday viðbótinni"
+
+#: admin/class-payday-admin.php:78
+msgid "Setup guide"
+msgstr "Hjálpargrein"
+
+#: classes/class-payday-claim-service-payment-gateway.php:27
+#: classes/class-payday-claim-service-payment-gateway.php:84
+msgid "Bank claim service"
+msgstr "Kröfuþjónusta"
+
+#: classes/class-payday-claim-service-payment-gateway.php:28
+msgid "Create a bank claim in the customer's online bank"
+msgstr "Stofna bankakröfu hjá viðskipavini"
+
+#: classes/class-payday-claim-service-payment-gateway.php:74
+msgid "Enable/Disable"
+msgstr "Virkja/Afvirkja"
+
+#: classes/class-payday-claim-service-payment-gateway.php:75
+msgid "Activate bank claim service"
+msgstr "Virkja bankakröfuþjónustu"
+
+#: classes/class-payday-claim-service-payment-gateway.php:81
+msgid "Payment method title"
+msgstr "Titill á greiðslumátanum"
+
+#: classes/class-payday-claim-service-payment-gateway.php:83
+msgid ""
+"This title will be shown to customers during checkout. Choose a name that "
+"clearly indicates what this payment method involves."
+msgstr ""
+"Þessi titill verður sýndur viðskiptavinum við afgreiðlsu. Veldu titil sem "
+"gefur skýrt til kynna hvað þessi greiðslumáti felur í sér."
+
+#: classes/class-payday-claim-service-payment-gateway.php:88
+msgid "Payment method description"
+msgstr "Lýsing á greiðslumátanum"
+
+#: classes/class-payday-claim-service-payment-gateway.php:90
+msgid ""
+"Provide details on how this payment method works. This will be visible to "
+"customers during checkout."
+msgstr ""
+"Veittu upplýsingar um hvernig þessi greiðslumáti virkar. Þetta verður "
+"sýnilegt viðskiptavininum við afgreiðslu."
+
+#: classes/class-payday-claim-service-payment-gateway.php:91
+msgid "Receive a claim in my online banking"
+msgstr "Fá kröfu í netbankann minn"
+
+#: classes/class-payday-claim-service-payment-gateway.php:95
+msgid "SSN field label"
+msgstr "Merking á kennitölureitnum"
+
+#: classes/class-payday-claim-service-payment-gateway.php:97
+msgid "This will be the name of the SSN field in the checkout form."
+msgstr "Þetta er merkingin sem birtist á reitnum við afgreiðslu."
+
+#: classes/class-payday-claim-service-payment-gateway.php:98
+msgid "Social security number"
+msgstr "Kennitala"
+
+#: classes/class-payday-claim-service-payment-gateway.php:102
+msgid "SSN field identifier"
+msgstr "Auðkenni á kennitölureitnum"
+
+#: classes/class-payday-claim-service-payment-gateway.php:104
+msgid ""
+"This is the unique identifier of the SSN field. If you have an existing SSN "
+"field, ensure that the IDs match."
+msgstr ""
+"Þetta er einkvæmt auðkenni fyrir kennitölureitinn. Ef þú ert nú þegar með "
+"kennitölureit, gakktu úr skugga um að auðkennin séu þau sömu."
+
+#: classes/class-payday-claim-service-payment-gateway.php:109
+msgid "Show SSN field on checkout page"
+msgstr "Sýna kennitölureitinn við afgreiðslu"
+
+#: classes/class-payday-claim-service-payment-gateway.php:112
+msgid ""
+"Tick this box if you want the SSN field to appear during checkout. Note: If "
+"this payment gateway is active, the SSN field will automatically be "
+"displayed."
+msgstr ""
+"Hakkaðu við þennan reit ef þú vilt að kennitölureiturinn birtist við "
+"afgreiðslu. Athugaðu: Ef þessi greiðslumáti er virkur, þá verður "
+"kennitölureiturinn sjálfkrafa birtur."
+
+#: classes/class-payday-claim-service-payment-gateway.php:117
+msgid "Require SSN during checkout"
+msgstr "Krefjast að kennitölureiturinn sé útfylltur við afgreiðslu"
+
+#: classes/class-payday-claim-service-payment-gateway.php:120
+msgid ""
+"Enable this option if you want to require customers to provide their SSN "
+"during checkout."
+msgstr ""
+"Hakaður við þennan valmöguleika ef þú vilt að sé krefjast þess að "
+"viðskiptavinir gefi upp kennitöluna sína við afgreiðslu."
+
+#: classes/class-payday-claim-service-payment-gateway.php:125
+msgid "Include SSN field in the confirmation email"
+msgstr "Láttu kennitölureitinn fylgja í staðfestingarpóstinum"
+
+#: classes/class-payday-claim-service-payment-gateway.php:128
+msgid ""
+"Enable this to have the customer's SSN included in the confirmation email "
+"sent by WooCommerce. Note: If this payment gateway is active, the SSN will "
+"be automatically included."
+msgstr ""
+"Hakaðu við til að birta kennitölu viðskiptavinarins í staðfestingarpóstinum "
+"sem WooCommerce sendir. Athugið: Ef þessi greiðlsumáti er virkur þá verður "
+"kennitalan sjálfkrafa birt."
+
+#: classes/class-payday-claim-service-payment-gateway.php:133
+msgid "Order status after checkout"
+msgstr "Staða á pöntun eftir afgreiðslu"
+
+#: classes/class-payday-claim-service-payment-gateway.php:135
+msgid ""
+"Select the status that the order transitions to after the checkout has been "
+"processed."
+msgstr "Þetta er stöðuna sem pöntunin fær þegar afgreiðslu er lokið."
+
+#: classes/class-payday-claim-service-payment-gateway.php:149
+msgid "Days until final due date"
+msgstr "Eindagi eftir fjöldi daga"
+
+#: classes/class-payday-claim-service-payment-gateway.php:151
+msgid "Number of additional days for the final due date on the invoice."
+msgstr "Eindagi á kröfu. Fjöldi daga frá og með deginum krafan er stofnuð."
+
+#: classes/class-payday-claim-service-payment-gateway.php:183
+#: classes/class-payday-claim-service-payment-gateway.php:188
+#: classes/class-payday-claim-service-payment-gateway.php:193
+msgid "Validation error: Please enter a valid \""
+msgstr "Villa kom upp: Vinsamlegast sláðu inn gilt gildi í \""
+
+#: classes/class-payday-claim-service-payment-gateway.php:262
+msgid "Unable to process order using: "
+msgstr "Ekki tóks að vinna pöntunina með því að nota: "
+
+#: classes/class-payday-claim-service-payment-gateway.php:263
+msgid "Payment error:"
+msgstr "Villa kom upp í greiðslu:"
+
+#: classes/class-payday-claim-service-payment-gateway.php:284
+msgid ""
+"Invoice was created in Payday.\n"
+"Claim was sent to SSN: %s"
+msgstr ""
+"Reikningur var stofnaður í Payday.\n"
+"Krafa var send á kennitölu: %s"
+
+#: classes/class-payday-claim-service-payment-gateway.php:286
+#: models/class-payday-order-model.php:161
+msgid "Invoice was created in Payday"
+msgstr "Reikningur var stofnaður í Payday"
+
+#: classes/class-payday-claim-service-payment-gateway.php:295
+msgid "Awaiting payment"
+msgstr "Beðið eftir greiðslu"
+
+#: classes/class-payday-claim-service-payment-gateway.php:384
+msgid "SSN"
+msgstr "Kennitala"
+
+#: classes/class-payday-product-sync.php:34
+#: classes/class-payday-product-sync.php:234
+msgid "Sync products with Payday"
+msgstr "Samstilla vörubirgðir við Payday"
+
+#: classes/class-payday-product-sync.php:102
+msgid "Product sync results"
+msgstr "Niðurstöður samstillingar"
+
+#: classes/class-payday-product-sync.php:106
+msgid "Status"
+msgstr "Staða"
+
+#: classes/class-payday-product-sync.php:107
+msgid "Count"
+msgstr "Fjöldi"
+
+#: classes/class-payday-product-sync.php:114
+msgid "Created"
+msgstr "Vörur stofnaðar"
+
+#: classes/class-payday-product-sync.php:122
+msgid "Updated"
+msgstr "Vörur uppfærðar"
+
+#: classes/class-payday-product-sync.php:130
+msgid "Unsuccessful"
+msgstr "Vörur sem tókst ekki að samstilla"
+
+#: classes/class-payday-product-sync.php:159
+msgid "Errors"
+msgstr "Villur"
+
+#: classes/class-payday-product-sync.php:163
+msgid "Product"
+msgstr "Vara"
+
+#: classes/class-payday-product-sync.php:164
+msgid "Error"
+msgstr "Villa"
+
+#: classes/class-payday-product-sync.php:201
+msgid "Product is missing SKU"
+msgstr "Það vantar SKU vörunúmer á vöruna"
+
+#: classes/class-payday-product-sync.php:213
+msgid "Variation is missing SKU"
+msgstr "Það vantar SKU vörunúmer á vöruafbrigðið"
+
+#: classes/class-payday-product-sync.php:273
+msgid "Variants with SKUs"
+msgstr "Afbrigði með SKU"
+
+#: classes/class-payday-settings.php:51
+msgid "Payment method to sales account mapping"
+msgstr "Pörun á greiðlumátum og bókhaldslyklum"
+
+#: classes/class-payday-settings.php:54
+msgid ""
+"Ensure each WooCommerce payment method is mapped to the appropriate sales "
+"account in Payday."
+msgstr ""
+"Gakktu úr skugga að greiðslumátar í WooCommerce samsvarar réttum "
+"bókhaldslyklum úr Payday."
+
+#: classes/class-payday-settings.php:55
+msgid ""
+"If a matching sales account does not exist in Payday for a particular "
+"WooCommerce payment method, you may need to create a new one."
+msgstr ""
+"Ef það vantar bókhaldslykil fyrir viðeigandi greiðslumáta þá gætirðu þurft "
+"að stofna nýjan."
+
+#: classes/class-payday-settings.php:72 classes/class-payday-settings.php:197
+#: classes/class-payday-settings.php:217
+msgid "None"
+msgstr "Ekkert valið"
+
+#: classes/class-payday-settings.php:114
+msgid ""
+"For the bank claim service gateway, there's no need to map a sales account. "
+"Just make sure to manually record the payment in Payday once the customer "
+"has completed the transaction."
+msgstr ""
+"Fyrir kröfuþjónustuna þá er engin þörf að velja bókhaldslykil. Gakktu úr "
+"skugga um að þú skrái greiðsluna handvirkt í Payday þegar viðskiptavinurinn "
+"hefur lokið við greiðsluna."
+
+#: classes/class-payday-settings.php:128
+msgid ""
+"Select the WooCommerce payment method that corresponds to this sales account "
+"in Payday."
+msgstr ""
+"Gakktu úr skugga að greiðslumátar í WooCommerce samsvarar réttum "
+"greiðslulyklum úr Payday."
+
+#: classes/class-payday-settings.php:152
+msgid "Invoice generation"
+msgstr "Stofnun á reikningum"
+
+#: classes/class-payday-settings.php:154
+msgid ""
+"Assign the WooCommerce Order Status that initiates the following action:"
+msgstr ""
+"Vinsamlegast veldu samsvarandi stöðu á pöntun til að framkvæma eftirfarandi "
+"aðgerð:"
+
+#: classes/class-payday-settings.php:155
+msgid ""
+"When the chosen status is reached, an invoice will be automatically "
+"generated in Payday and marked as paid."
+msgstr ""
+"Þegar pöntun nær ákveðinni stöðu þá stofnast sjálfkrafa reikningur í Payday "
+"merktur greiddur."
+
+#: classes/class-payday-settings.php:195
+msgid ""
+"Invoices are automatically generated, marked as SENT, and a claim is created "
+"in the customer's bank when an order is made through the Payday Claim "
+"Service. This field is not editable."
+msgstr ""
+"Reikningar eru sjálfkrafa stofnaðir, merktir sem ógreiddir og krafa er "
+"stofnuð í banka viðskiptavinarins þegar viðskiptavinur velur þessa "
+"greiðsluleið. Ekki er hægt að eiga við þessa stillingu."
+
+#: classes/class-payday-settings.php:198 classes/class-payday-settings.php:218
+msgid "Do not send"
+msgstr "Ekki senda"
+
+#: classes/class-payday-settings.php:215
+msgid "Specify the WooCommerce Order Status that will initiate the action"
+msgstr ""
+"Vinsamlegast veldu samsvarandi stöðu á pöntun til að framkvæma eftirfarandi "
+"aðgerð"
+
+#: classes/class-payday-settings.php:244
+msgid "Additional invoice settings"
+msgstr "Viðbótarstillingar fyrir reikninga"
+
+#: classes/class-payday-settings.php:253
+msgid "Send invoice as PDF to customer"
+msgstr "Senda reikning sem PDF í tölvupósti þegar hann er stofnaður"
+
+#: classes/class-payday-settings.php:260
+msgid ""
+"Choose whether to send the invoice as a PDF via email to the customer upon "
+"creation."
+msgstr ""
+"Vinsamlegast veldu hvort reikninguinn á að sendast á viðskiptavininn í "
+"tölvupósti þegar reikningurinn hefur verið stofnaður."
+
+#: classes/class-payday-settings.php:262
+msgid "Yes"
+msgstr "Já"
+
+#: classes/class-payday-settings.php:263
+msgid "No"
+msgstr "Nei"
+
+#: classes/class-payday-settings.php:273
+msgid "Setting for invoice creation and due dates"
+msgstr "Stillingar fyrir dagsetningu reiknings or gjalddagi"
+
+#: classes/class-payday-settings.php:280
+msgid ""
+"Choose whether the invoice creation and due date should be set to the "
+"initial order date or the date the invoice is actually generated."
+msgstr ""
+"Vinsamlegast veldu hvort dagsetning reikings og gjalddagi ætti að vera sú "
+"sama og þegar pöntunin var fyrst búin til eða sú sama og þegar beiðni er "
+"gerð um að stofna reikninginn."
+
+#: classes/class-payday-settings.php:282
+msgid "Set dates to initial order date"
+msgstr "Velja dagsetninguna sem pöntunin var upphaflega stofnað"
+
+#: classes/class-payday-settings.php:283
+msgid "Set dates to the day the invoice is generated"
+msgstr "Velja dagsetninguna sem reikningurinn er stofnaður"
+
+#: models/class-payday-customer-model.php:96
+msgid ""
+"OpenPos customer created by Payday WooCommerce plugin. Please do not edit "
+"this customer"
+msgstr ""
+"OpenPos viðskiptarvinur búinn til af Payday WooCommerce viðbótinni. "
+"Vinsamlegast ekki breyta þessum viðskiptavini"
+
+#: models/class-payday-invoice-model.php:37
+msgid ""
+"Unable to create an invoice in Payday due to failure to create customer in "
+"Payday"
+msgstr ""
+"Ekki tókst að stofna reikning í Payday vegna þess að ekki tókst að stofna "
+"viðskiptavin í Payday"
+
+#: models/class-payday-invoice-model.php:71
+msgid ""
+"Unable to create an invoice in Payday due to failure to updating customer "
+"address in Payday"
+msgstr ""
+"Ekki tókst að búa til reikning í Payday vegna þess að ekki tókst að uppfæra "
+"heimilisfang viðskiptavinar í Payday"
+
+#: models/class-payday-invoice-model.php:196
+msgid "Rounding Amount"
+msgstr "Námundunarupphæð"
+
+#: models/class-payday-invoice-model.php:627
+msgid "Refund"
+msgstr "Endurgreiðsla"
+
+#: models/class-payday-order-model.php:137
+msgid ""
+"Invoice was not created in Payday. Please check the logs for more "
+"information."
+msgstr ""
+"Ekki tókst að stofna reikning í Payday. Vinsamlegast athugaðu atburðaskránna "
+"fyrir frekari upplýsingar."
+
+#: models/class-payday-order-model.php:154
+msgid "Invoice was created in Payday. A bank claim was been sent to SSN: %s"
+msgstr ""
+"Reikningur var stofnaður í Payday.\n"
+"Krafa var send á kennitölu: %s"
+
+#: pages/class-payday-log-viewer-page.php:45
+#: pages/class-payday-log-viewer-page.php:51
+msgid "Log cleared."
+msgstr "Atburðaskrá hreinsuð."
+
+#: pages/class-payday-log-viewer-page.php:48
+msgid "Log file not found, unable to clear."
+msgstr "Ekki náðist að hreinsa atburðaskránna. Atburðarskráin fannst ekki."
+
+#: pages/class-payday-log-viewer-page.php:60
+msgid "No log file found."
+msgstr "Engin atburðaskrá fannst."
+
+#: pages/class-payday-log-viewer-page.php:69
+msgid "Log Viewer"
+msgstr "Atburðaskrá"
+
+#: pages/class-payday-log-viewer-page.php:73
+msgid "Clear Log"
+msgstr "Hreinsa atburðaskrá"
+
+#: pages/class-payday-log-viewer-page.php:77
+msgid "Download Log"
+msgstr "Sækja atburðaskrá"
+
+#: pages/class-payday-login-page.php:46
+msgid ""
+"Access your ClientId and ClientSecret on Payday.is underneath Settings -> "
+"Company Settings -> API"
+msgstr ""
+"Nálgastu ClientId og ClientSecret á Payday.is undir Stillingar > Fyrirtæki > "
+"Samþættingar"
+
+#: pages/class-payday-login-page.php:52
+msgid "ClientID"
+msgstr "ClientID"
+
+#: pages/class-payday-login-page.php:69
+msgid "ClientSecret"
+msgstr "ClientSecret"
+
+#: pages/class-payday-login-page.php:86
+msgid "API Endpoint"
+msgstr "API Endpoint"
+
+#: pages/class-payday-login-page.php:90
+msgid "Production"
+msgstr "Production"
+
+#: pages/class-payday-login-page.php:91
+msgid "Test"
+msgstr "Test"
+
+#: pages/class-payday-login-page.php:92
+msgid "Localhost"
+msgstr "Localhost"
+
+#: pages/class-payday-login-page.php:190
+msgid "Invalid value for ClientID. Value has to be 32 characters long."
+msgstr "Ógilt gildi fyrir ClientID. Gildið þarf að vera 32 stafir að lengd."
+
+#: pages/class-payday-login-page.php:200
+msgid "Invalid value for ClientID. Value has to be a hexadecimal number."
+msgstr ""
+"Ógilt gildi fyrir ClientID. Gildið má bara innihalda sextándakerfistölur."
+
+#: pages/class-payday-login-page.php:225
+msgid "Invalid value for ClientSecret. Value has to be 32 characters long."
+msgstr ""
+"Ógilt gildi fyrir ClientSecret. Gildið þarf að vera 32 stafir að lengd."
+
+#: pages/class-payday-login-page.php:235
+msgid "Invalid value for ClientSecret. Value has to be a hexadecimal number."
+msgstr ""
+"Ógilt gildi fyrir ClientSecret. Gildið má bara innihalda sextándakerfistölur."
+
+#: pages/class-payday-login-page.php:263
+msgid "Invalid value for API Endpoint."
+msgstr "Ógilt gildi fyrir API Endpoint."
+
+#: pages/class-payday-login-page.php:292
+msgid ""
+"Login failed. Unable to connect to the Payday API on the selected API "
+"Endpoint:"
+msgstr ""
+"Innskráning mistókst. Ekki er hægt að tengjast Payday API á völdum API "
+"endapunkt:"
+
+#: pages/class-payday-login-page.php:292
+msgid "Please check the status of the Payday API and try again."
+msgstr "Vinsamlegast athugaðu stöðu Payday API og reyndu aftur."
+
+#: pages/class-payday-login-page.php:318
+msgid ""
+"Login failed. Invalid credentials. Please check your ClientID, ClientSecret, "
+"and API Endpoint."
+msgstr ""
+"Innskráning mistókst. Ógild innskráningarauðkenni. Vinsamlegast athugaðu "
+"ClientID, ClientSecret og API Endpoint."
+
+#: pages/class-payday-login-page.php:360 pages/class-payday-login-page.php:371
+msgid "Login"
+msgstr "Innskrá"
+
+#: pages/class-payday-login-page.php:375
+msgid "https://hjalp.payday.is/article/72-woocommerce"
+msgstr "https://hjalp.payday.is/article/72-woocommerce"
+
+#: pages/class-payday-login-page.php:375
+msgid "Setup Guide"
+msgstr "Hjálpargrein"
+
+#: pages/class-payday-login-page.php:376
+msgid "https://payday.is/en/terms"
+msgstr "https://payday.is/is/skilmalar"
+
+#: pages/class-payday-login-page.php:376
+msgid "Terms of Service"
+msgstr "Viðskiptaskilmálar"
+
+#: pages/class-payday-login-page.php:377
+msgid "https://payday.is/en/privacy-policy"
+msgstr "https://payday.is/is/personuverndarstefna"
+
+#: pages/class-payday-login-page.php:377
+msgid "Privacy Policy"
+msgstr "Persónuverndarstefna"
+
+#: pages/class-payday-settings-page.php:122
+msgid "Click to fetch and update the sales accounts from Payday"
+msgstr "Smelltu til þess að sækja og uppfæra bókhaldslykla úr Payday"
+
+#: pages/class-payday-settings-page.php:124
+msgid "Sync sales accounts from Payday"
+msgstr "Samstilltu bókhaldslykla úr Payday"
+
+#: pages/class-payday-settings-page.php:132
+msgid "Click to synchronize all product inventories with Payday"
+msgstr "Smelltu til að uppfæra allar vörubirgðir við Payday"
+
+#: pages/class-payday-settings-page.php:134
+msgid "Sync all products inventory with Payday"
+msgstr "Samstilla allar vörubirgðir við Payday"
+
+#: pages/class-payday-settings-page.php:139
+msgid "Active"
+msgstr "Virkjuð"
+
+#: pages/class-payday-settings-page.php:146
+msgid "Disconnect"
+msgstr "Afvirkja"
+
+#: payday.php:95 payday.php:226
+msgid ""
+"The Payday plugin requires PHP version %s or later. You are running version "
+"%s. Please upgrade your PHP version or deactivate the plugin."
+msgstr ""
+"Payday viðbótin krefst PHP útgáfu %s eða nýrri. Þú ert að keyra útgáfu %s. "
+"Vinsamlegast uppfærðu PHP útgáfuna þína eða slökktu á viðbótinni."
+
+#: utils/class-payday-utils.php:65
+msgid ""
+"Invoice was created in Payday #%s\n"
+"Claim was sent to SSN: %s"
+msgstr ""
+"Reikningur var stofnaður í Payday #%s\n"
+"Krafa var send á: %s"
+
+#: utils/class-payday-utils.php:68
+msgid "Invoice was created in Payday #%s"
+msgstr "Reikningur var stofnaður í Payday #%s"
+
+#~ msgid "SKU"
+#~ msgstr "SKU vörunúmer"
+
+#~ msgid "%1$s product created in Payday."
+#~ msgid_plural "%1$s products created in Payday."
+#~ msgstr[0] "%1$s vara stofnuð í Payday."
+#~ msgstr[1] "%1$s vörur stofnaðar í Payday."
+
+#~ msgid "%1$s product updated in Payday."
+#~ msgid_plural "%1$s products updated in Payday."
+#~ msgstr[0] "%1$s vara uppfærð í Payday."
+#~ msgstr[1] "%1$s vörur uppfærðar í Payday."
+
+#~ msgid "%1$s product failed to sync with Payday."
+#~ msgid_plural "%1$s products failed to sync with Payday."
+#~ msgstr[0] "Ekki tókst að uppfæra %1$s vöru í Payday."
+#~ msgstr[1] "Ekki tókst að uppfæra %1$s vörur við Payday."
+
+#~ msgid "%1$s product failed to sync with Payday because it is missing a SKU."
+#~ msgid_plural ""
+#~ "%1$s products failed to sync with Payday because they are missing a SKU."
+#~ msgstr[0] ""
+#~ "Ekki tókst að uppfæra %1$s vöru í Payday vegna þess að það vantar SKU "
+#~ "vörunúmer."
+#~ msgstr[1] ""
+#~ "Ekki tókst að uppfæra %1$s vörur í Payday vegna þess að það vantar SKU "
+#~ "vörunúmer."
+
+#~ msgid ""
+#~ "%1$s product variation failed to sync with Payday because it is missing "
+#~ "their own unique SKU."
+#~ msgid_plural ""
+#~ "%1$s product variations failed to sync with Payday because they are "
+#~ "missing their own unique SKU."
+#~ msgstr[0] ""
+#~ "Ekki tókst að uppfæra %1$s vöruafbrigði í Payday vegna þess að það vantar "
+#~ "einstakt SKU númer."
+#~ msgstr[1] ""
+#~ "Ekki tókst að uppfæra %1$s vöruafbrigði í Payday vegna þess að það vantar "
+#~ "einstök SKU númer."
+
+#~ msgid "Invoice was created in Payday #%d"
+#~ msgstr "Reikningur var stofnaður í Payday"
+
+#~ msgid "Reason"
+#~ msgstr "Ástæða"
+
+#~ msgid "Display SSN field during checkout"
+#~ msgstr "Birta kennitölureitinn við afgreiðslu"
+
+#~ msgid "Make SSN field mandatory during checkout"
+#~ msgstr "Fara fram á að kennitölureiturinn sé útfylltur við afgreiðslu"
+
+#~ msgid "Include SSN in confirmation email"
+#~ msgstr "Láttu kennitöluna birtast í staðfestingarpóstinum"
+
+#~ msgid "Payday Claim Service Settings"
+#~ msgstr "Payday Kröfuþjónusta - Stillingar"
+
+#~ msgid "Shipping"
+#~ msgstr "Sendingarmáti"
+
+#~ msgid "Discount (Coupon Code: %s)"
+#~ msgstr "Afsláttur (Afsláttar kóði: %s)"
+
+#~ msgid "Payday Login"
+#~ msgstr "Payday Innskráning"
+
+#~ msgid "Payday Claim Service"
+#~ msgstr "Kröfuþjónusta Payday"
+
+#~ msgid "Enable Payday Gateway"
+#~ msgstr "Virkja Kröfuþjónustu Payday"
+
+#~ msgid "Title"
+#~ msgstr "Titill"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr "Þetta stýrir titlinum sem notandinn sér við afgreiðlu."
+
+#~ msgid "Bank Claim"
+#~ msgstr "Krafa"
+
+#~ msgid "Description"
+#~ msgstr "Nánari lýsing"
+
+#~ msgid "This controls the description which the user sees during checkout."
+#~ msgstr "Þetta stýrir nánar lýsingunni sem notandinn sér við afgreiðlu."
+
+#~ msgid "Field Id"
+#~ msgstr "Auðkenni reits"
+
+#~ msgid ""
+#~ "This is the Id of the field custom field. If you already have a field for "
+#~ "the SSN number, then type in that fields id, so it matches."
+#~ msgstr ""
+#~ "Þetta er auðkenni sérsniðna reitsins fyrir kennitölu viðskiptavins. Ef þú "
+#~ "ert nú þegar með reit fyrir kennitölu viðskiptavins sláðu þá hana inn svo "
+#~ "að það passi."
+
+#~ msgid ""
+#~ "Display field during checkout. If the gateway is enabled, then this "
+#~ "setting will be ignored and be enabled."
+#~ msgstr ""
+#~ "Birta reit við afgreiðlu. Ef kröfuþjónustan er virk, þá birtist reiturinn "
+#~ "sjálfkrafa."
+
+#~ msgid "Require the customer to fill out the field during checkout."
+#~ msgstr "Skilda viðskiptavin að filla út í kennitölureitinn við afgreiðlsu."
+
+#~ msgid "Display Field in Email"
+#~ msgstr "Birta reit í tölvupósti"
+
+#~ msgid ""
+#~ "Display Field in the email sent from WooCommerce. If the gateway is "
+#~ "enabled, then this setting will be ignored and be enabled."
+#~ msgstr ""
+#~ "Birta reit í tölvupósti frá WooCommerce. Ef kröfuþjónustan er virk, þá "
+#~ "birtist reiturinn sjálfkrafa."
+
+#~ msgid "You might need to create a new payment type in Payday first."
+#~ msgstr "Þú gætir þurft að búa til nýjan greiðslulykil í Payday fyrst."
+
+#~ msgid ""
+#~ "When using the Payday payment gateway, no payment type is needed. You "
+#~ "will need to add the payment manually in Payday when the customer has "
+#~ "paid."
+#~ msgstr ""
+#~ "Þegar þú notar kröfuþjónustu Payday þarftu ekki að velja bókhaldslykill. "
+#~ "Þú verður að bæta greiðsluna handvirkt inn í Payday þegar "
+#~ "viðskiptavinurinn hefur greitt kröfuna."
+
+#~ msgid "Create a new invoice in Payday and mark it as paid."
+#~ msgstr "Búa til nýjan reikning í Payday og senda kröfu."
+
+#~ msgid "to the date the order was first created"
+#~ msgstr "á dagsetninguna þegar að pöntunin var fyrst stofnuð"
+
+#~ msgid "to the date when the request is made to create an invoice"
+#~ msgstr "á dagsetninguna þegar beiðnin að stofna reikning er búin til"
+
+#~ msgid "Refresh Values"
+#~ msgstr "Endurnýja Gildin"
+
+#~ msgid "Error occurred in database: "
+#~ msgstr "Villa kom upp í gagnagrunninum: "
+
+#~ msgid "Create Invoice in Payday"
+#~ msgstr "Búa til reikning í Payday"
+
+#~ msgid "Create Invoice in Payday and Claim"
+#~ msgstr "Búa til nýjan reikning í Payday og senda kröfu"
+
+#~ msgid "Unable to create an invoice in Payday"
+#~ msgstr "Ekki tókst að stofna reikning í Payday"
+
+#~ msgid "Rounding due to OpenPos"
+#~ msgstr "Afrúnun v. OpenPos"
+
+#~ msgid ""
+#~ "Credentials are invalid. Please check your ClientID, ClientSecret and "
+#~ "selected Api Endpoint. Make sure you have the correct values, and that "
+#~ "you have saved the settings in Payday."
+#~ msgstr ""
+#~ "Aðgangsupplýsingar ógildar. Vinsamlegast athugaðu hvort ClientID, "
+#~ "ClientSecret og Api Endpoint, er rétt slegið inn og að þú hafir vistað "
+#~ "stillingarnar í Payday."
+
+#~ msgid "API Settings"
+#~ msgstr "Samþætting Stillingar"
+
+#~ msgid "This plugin is not active. Please fill in your credentials and save."
+#~ msgstr ""
+#~ "Þessi viðbót er ekki virk. Vinsamlegast fylltu út auðkenni og vistaðu."
+
+#~ msgid "Staging"
+#~ msgstr "Staging (Þróunar umhverfi)"
+
+#~ msgid "ClientID is required."
+#~ msgstr "ClientID er krafist."
+
+#~ msgid "ClientSecret is required."
+#~ msgstr "ClientSecret er krafist."
+
+#~ msgid "API Endpoint is required."
+#~ msgstr "API Endpoint er krafist."
+
+#~ msgid "Essential tables for Payday are missing."
+#~ msgstr "Mikilvægar gagnagrunnstöflur fyrir Payday viðbótina vanta."
+
+#~ msgid ""
+#~ "Unable to create an invoice in Payday.\n"
+#~ "Invoice already exists.\n"
+#~ "Invoice #%s"
+#~ msgstr ""
+#~ "Ekki tókst að stofna reikning í Payday.\n"
+#~ "Reikningur er nú þegar til.\n"
+#~ "Reikningur #%s"
+
+#~ msgid "Order number"
+#~ msgstr "Pöntunarnúmer"
+
+#~ msgid "Order notes"
+#~ msgstr "Athugasemdir við pöntun"
